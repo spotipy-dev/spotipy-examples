@@ -1,9 +1,14 @@
 # Spotipy Examples
-A place to showcase the usage of spotipy. This repository consists in a set of examples into a Jupyter notebook to understand Spotipy functionalities.
 
-## Quick Start
-Once you have set up an environment for running Jupyter notebooks, run the [showcases notebook](https://github.com/spotipy-dev/spotipy-examples/blob/main/showcases.ipynb). 
+A place to showcase the usage of spotipy. This repository consists in a set of examples to understand Spotipy functionalities.
 
-Every snippet of code are independent from each other. However, you need to execute _Setup_ and _Credentials_ sections and insert the ID and SECRET key from your app in the  https://developers.spotify.com/ dashboard. 
+Please add examples here rather than in the main library repo [spotipy-dev/spotipy](https://github.com/spotipy-dev/spotipy).
 
-For more info, check the [official documentation](https://spotipy.readthedocs.io/en/2.22.1/) or the [Github repository](https://github.com/spotipy-dev/spotipy).
+## Content
+
+- [/apps](./apps/): full apps
+  - [Flask API example](./apps/flask_api)
+- [/notebooks](./notebooks/)
+  - [Google Colab](./notebooks/colab) (to do, PRs very welcome!)
+  - [Jupyter Notebook](./notebooks/jupyter)
+- [/scripts](./scripts/): various standalone Python scripts taking parameters
