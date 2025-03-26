@@ -1,6 +1,6 @@
 # Flask API example
 
-This examples shows how to use spotipy as an API and allowing multiple users to sign in from a basic UI.
+This example shows how to use spotipy as an API and allowing multiple users to sign in from a basic UI.
 
 ## Prerequisites
 
