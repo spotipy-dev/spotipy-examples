@@ -8,6 +8,7 @@ Please add examples here rather than in the main library repo [spotipy-dev/spoti
 
 - [/apps](./apps/): full apps
   - [Flask API example](./apps/flask_api)
+  - [Streamlit](./apps/streamlit)
 - [/notebooks](./notebooks/)
   - [Google Colab](./notebooks/colab) (to do, PRs very welcome!)
   - [Jupyter Notebook](./notebooks/jupyter)
