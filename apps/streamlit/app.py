@@ -31,8 +31,8 @@ def get_auth_manager():
 
 def main():
     st.title("Spotify Playlists")
+    sp = Spotify(auth_manager=get_auth_manager())
     if "spotipy_token" in st.session_state:
-        sp = Spotify(auth_manager=get_auth_manager())
         playlists = sp.current_user_playlists()["items"]
         for index, playlist in enumerate(playlists):
             st.write(f"{index + 1}: "
