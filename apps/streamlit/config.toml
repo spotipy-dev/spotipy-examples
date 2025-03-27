@@ -1,0 +1,6 @@
+[spotipy]
+scope = "playlist-read-private"
+show_dialog = false
+client_id = ""
+client_secret = ""
+redirect_uri = "http://127.0.0.1:8501"
